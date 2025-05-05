@@ -13,26 +13,6 @@ This repository contains a complete **Software Testing Project** for [Insert Pro
 
 ---
 
-## 📁 Folder Structure
-
-.
-├── test-plan/ # Master test planning document
-│ └── Test_Plan.md
-├── test-cases/ # Modular test cases per feature/module
-│ ├── Login_Test_Cases.xlsx
-│ └── User_Profile_Test_Cases.md
-├── bug-reports/ # Bug tracking documents (if applicable)
-│ └── Bug_Report_Template.md
-├── test-results/ # Optional test execution summaries
-│ └── Test_Execution_Report.pdf
-└── README.md # Project description and instructions
-
-yaml
-Copy
-Edit
-
----
-
 ## ✅ Test Artifacts
 
 ### 📝 Test Plan
