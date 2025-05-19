@@ -1,6 +1,6 @@
 package tasks;
 
-public class Lab023_TableOf5 {
+public class Task1_TableOf5 {
     public static void main(String[] args) {
         int num=5;
         System.out.printf("%d*1 = %d\n",num,num);
