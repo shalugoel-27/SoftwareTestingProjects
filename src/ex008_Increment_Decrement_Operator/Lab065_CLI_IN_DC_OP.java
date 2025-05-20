@@ -1,6 +1,6 @@
 package ex008_Increment_Decrement_Operator;
 
-public class Lab065_IN_DC_OP {
+public class Lab065_CLI_IN_DC_OP {
     public static void main(String[] args) {
         // take inputs
         String s1 = args[0];
