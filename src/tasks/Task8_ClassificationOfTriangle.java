@@ -5,22 +5,22 @@ public class Task8_ClassificationOfTriangle {
 String n1 = args[0];
 String n2 = args[1];
 String n3 = args[2];
-//if (n1==n2) && (n2==n3)
-//        {
-//            System.out.println("equilaterl triangle");
-//        }
-//            else if (n1==n2) || (n2 ==n3) || (n1==n3)
-//        {
-//            System.out.println("Isosceles");
-//        }
-//            else
-//        {
-//            System.out.println("scalene");
-//        }
-////
-//
-//
-//
+if (n1==n2 && n2==n3 && n3==n1)
+        {
+            System.out.println("equilateral triangle");
+        }
+            else if (n1==n2 || n2 ==n3 || n1==n3)
+        {
+            System.out.println("Isosceles");
+        }
+            else
+        {
+            System.out.println("scalene");
+        }
+
+
+
+
 // String result =(n1==n2) ? (n2==n3) ? "equilateral" :"isosceles" : ((n1==n3) ? "isosceles" : "scalene" );
 
         // step 1......i/p and o/p data types
