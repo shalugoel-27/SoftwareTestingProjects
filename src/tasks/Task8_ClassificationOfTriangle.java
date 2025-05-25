@@ -5,11 +5,14 @@ public class Task8_ClassificationOfTriangle {
 String n1 = args[0];
 String n2 = args[1];
 String n3 = args[2];
-if (n1==n2 && n2==n3 && n3==n1)
+int a = Integer.parseInt(n1);
+int b = Integer.parseInt(n2);
+int c = Integer.parseInt(n3);
+if (a==b && b==c && c==a)
         {
             System.out.println("equilateral triangle");
         }
-            else if (n1==n2 || n2 ==n3 || n1==n3)
+            else if (a==b || b ==c || a==c)
         {
             System.out.println("Isosceles");
         }
