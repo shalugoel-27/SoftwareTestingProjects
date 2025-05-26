@@ -14,7 +14,8 @@ public class Factorial_for_n {
             System.out.println("it is a negative no");
         } else
         {
-            for(int i=num; i>0;i--)
+           // for(int i=num; i>0;i--)
+            for(int i=1; i<=num;i++)
             {
                 fact=fact*i;
             }
