@@ -9,7 +9,7 @@ public class Factorial_for_n {
         int num = scanner.nextInt();
         int fact =1;
 
-         if(num==-1)
+         if(num<0)
         {
             System.out.println("it is a negative no");
         } else

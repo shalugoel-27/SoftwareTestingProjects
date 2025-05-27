@@ -2,8 +2,8 @@ package ex010_Switch;
 
 public class Lab092_Interview {
     public static void main(String[] args) {
-char code = 'C';
-//code = code.toLowercase();
+char code = 'C'; // ASCII- 67
+//code = code.toUpperCase();
 
 
 switch(code){

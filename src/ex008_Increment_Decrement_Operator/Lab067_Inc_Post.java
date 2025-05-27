@@ -16,8 +16,8 @@ public class Lab067_Inc_Post {
         //8 | na | 10
 
         int a_post =20;
-        System.out.println(a_post++);
-        System.out.println(a_post);
+        System.out.println(a_post++); //20
+        System.out.println(a_post); //21
     }
 
 

@@ -11,7 +11,7 @@ public class Lab107_ForLoopContinue {
             }
             System.out.println(i);
 
-//it will continue further in the loop without printing 5
+//it will continue further in the loop without printing 5 or after skipping 5
         }
     }
 

@@ -26,7 +26,7 @@ public class Lab116_whileGuessingGame {
             guess= scanner.nextInt();
             attempts++;
 
-            if(guess<1 && guess>100){
+            if(guess<1 || guess>100){
                 System.out.println("Please enter a valid no only");
                 continue;
             }
