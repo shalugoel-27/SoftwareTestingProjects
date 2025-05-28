@@ -20,18 +20,18 @@ static int return_type_Funct(){
     return 10; //it can return int or string
 }
 static String return_type(){
-    return shalu;
+    return "shalu";
 }
-static float return_type(){
+static float float_return_type(){
     return 3.14f;
 }
-static long return_type(){
-    return = 10l;
+static long long_return_type(){
+    return 10l;
 }
-static byte return_type(){
+static byte byte_return_type(){
         return 100;
 }
-static boolean return_type(){
+static boolean boolean_return_type(){
         return true; //if we dont return we get error ....either return it or make it void
 }
 
