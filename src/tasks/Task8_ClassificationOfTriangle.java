@@ -8,17 +8,17 @@ String n3 = args[2];
 int a = Integer.parseInt(n1);
 int b = Integer.parseInt(n2);
 int c = Integer.parseInt(n3);
-if (a==b && b==c && c==a)
-        {
-            System.out.println("equilateral triangle");
-        }
-            else if (a==b || b ==c || a==c)
-        {
-            System.out.println("Isosceles");
-        }
-            else
-        {
-            System.out.println("scalene");
+//parent check- the sum of 2 sides should be greater than the third one
+        if(a+b>c && b+c>a && c+a>b) {
+            if (a == b && b == c && c == a) {
+                System.out.println("equilateral triangle");
+            } else if (a == b || b == c || a == c) {
+                System.out.println("Isosceles");
+            } else {
+                System.out.println("scalene");
+            }
+        }else {
+            System.out.println("Not a valid triangle");
         }
 
 

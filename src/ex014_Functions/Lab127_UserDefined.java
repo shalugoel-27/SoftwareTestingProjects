@@ -2,9 +2,7 @@ package ex014_Functions;
 
 import java.util.Scanner;
 
-import static java.lang.Integer.sum;
-import static javax.management.Query.div;
-import static sun.util.calendar.CalendarUtils.mod;
+
 
 public class Lab127_UserDefined {
     public static void main(String[] args) {
@@ -38,6 +36,9 @@ static int readInt(Scanner scanner, String prompt ){
         return -1;
     }
 
+
+}
+
     static int sum(int a, int b){
         return a+b;
     }
@@ -53,7 +54,7 @@ static int readInt(Scanner scanner, String prompt ){
 
     static int div(int a,int b) throws ArithmeticException{
         if(b==0){
-            throw new ArithmeticException("Division by zero is not allowed")
+            throw new ArithmeticException("Division by zero is not allowed");
         }
         return a/b;
 
@@ -62,5 +63,9 @@ static int readInt(Scanner scanner, String prompt ){
     static int mod(int a, int b){
         return a%b;
     }
-}
+
+
+
+
+
 }
