@@ -3,7 +3,7 @@ package ex017_Arrays;
 import java.util.Scanner;
 import java.util.StringJoiner;
 
-public class Lab152_Array_UserInput {
+public class  Lab152_Array_UserInput {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the size of an array(int)");

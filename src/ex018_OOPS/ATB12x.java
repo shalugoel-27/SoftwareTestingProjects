@@ -22,6 +22,7 @@ String payment_ID;
 
     //write now this is not taking any memory
     // but when u call this then jvm will load this class in class loader
+    // as soon as the class is loaded by jvm into class loader it will assign default values to all of thrm
 
 
 

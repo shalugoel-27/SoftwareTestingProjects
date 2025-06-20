@@ -15,7 +15,7 @@ public class Lab136_StringExamples {
         int result1 = "abc".compareToIgnoreCase("ABC");
         System.out.println(result1); // o/p = 0
 
-        int idx= "Java".indexOf("a"); // 1
+        int idx= "Java".indexOf("a"); // index of first a=1
         System.out.println(idx);
 
         int idx1 ="Java".lastIndexOf("a"); //3

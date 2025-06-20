@@ -1,6 +1,7 @@
 package ex015_Strings;
 
 public class Lab138_Substring {
+
     public static void main(String[] args) {
         String s= "Java".substring(2);
         System.out.println(s); // va
