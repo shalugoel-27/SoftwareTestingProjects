@@ -13,7 +13,7 @@ public class Lab175 {
         //Son s2 = new Father(); not possible when father is born u cannot be present
         Father f1= new Son(); // possible this is knwn as dynamic dispatch
 
-        Grandfather gf= new Father();
+       // Grandfather gf= new Father();
         Grandfather gf2 = new Son();
         // this is only possible bcoz of extend keyword that shows relationship
 
