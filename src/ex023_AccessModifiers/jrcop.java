@@ -1,4 +1,4 @@
-package AccessModifiers;
+package ex023_AccessModifiers;
 
 public class jrcop {
     public static void main(String[] args) {

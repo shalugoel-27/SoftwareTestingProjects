@@ -1,6 +1,6 @@
-package AccessModifiers.criminal;
+package ex023_AccessModifiers.criminal;
 
-import AccessModifiers.Cop;
+import ex023_AccessModifiers.Cop;
 
 public class Thief {
     public static void main(String[] args) {

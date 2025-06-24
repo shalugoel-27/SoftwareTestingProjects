@@ -1,4 +1,4 @@
-package AccessModifiers;
+package ex023_AccessModifiers;
 
 public class Cop {
     private int gun;
